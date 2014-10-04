@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title= current_page.data.title || "Guitar"
+    = stylesheet_link_tag "all",'carousel'
+    = javascript_include_tag "https://code.jquery.com/jquery-1.11.1.min.js"
+    = javascript_include_tag  "all"
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+
+  %body
+    = partial 'partials/nav' 
+    - if content_for? :carousel
+      = yield_content :carousel 
+    .container= yield

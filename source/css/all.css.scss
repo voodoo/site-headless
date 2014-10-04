@@ -1,0 +1,26 @@
+.navbar {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+h1{
+	border-bottom:1px solid #ccc;
+}
+
+@import 'bootstrap';
+
+body{
+	margin-top:50px;
+}
+
+#logo{
+	margin-top:-16px;
+}
+
+img.thumbnail{
+	//width:100px;
+	height:100px;
+	float:left;
+	margin-right: 20px;
+
+}

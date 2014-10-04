@@ -1,0 +1,42 @@
+#myCarousel.carousel.slide{"data-ride" => "carousel"}
+  / Indicators
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "3", "data-target" => "#myCarousel"}
+  .carousel-inner
+    .item.active
+      %img{:alt => "Fender Jaguar", :src => "/img/1.png"}/
+      .container
+        .carousel-caption
+          %h2 Fender Jaguar
+          %p 24" scale
+          / %p
+          /   \... you take a perfectly good Fender Jaguar and ..
+          / %p
+          /   %a.btn.btn-lg.btn-primary{:href => "#", :role => "button"} Find out
+    .item
+      %img{:alt => "Second slide", :src => "/img/5.png"}/
+      .container
+        .carousel-caption
+          %h2 Prototype
+          %p Less is More. More or less.
+          / %p
+          /   %a.btn.btn-lg.btn-primary{:href => "#", :role => "button"} Learn more
+    .item
+      %img{:alt => "Digitally remove body", :src => "/img/8.png"}/
+      .container
+        .carousel-caption
+          %h2 Digital prototype
+    .item
+      %img{:alt => "Third slide", :src => "/img/11.png"}/
+      .container
+        .carousel-caption
+          %h2 Cut it up          
+
+  %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel", :role => "button"}
+    %span.glyphicon.glyphicon-chevron-left
+  %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel", :role => "button"}
+    %span.glyphicon.glyphicon-chevron-right
+/ /.carousel

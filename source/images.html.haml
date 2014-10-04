@@ -1,0 +1,31 @@
+= stylesheet_link_tag "//23.253.214.114/gallery/css/blueimp-gallery.min.css"
+= javascript_include_tag "//23.253.214.114/gallery/js/blueimp-gallery.min.js"
+
+.blueimp-gallery.blueimp-gallery-controls#blueimp-gallery
+  .slides
+  %h3.title
+  %a.prev ‹
+  %a.next ›
+  %a.play-pause
+  %ol.indicator
+
+
+#links
+  .container.gallery
+    %h1 Images
+    .images
+      - data.guitar.images.each do |image|
+        = link_to(image_tag(image.img, class: 'thumbnail'), "/img/#{image.img}", title: image.title)
+
+
+
+%script
+  document.getElementById('links').onclick = function (event) {
+  event = event || window.event;
+  var target = event.target || event.srcElement,
+  link = target.src ? target.parentNode : target,
+  options = {index: link, event: event},
+  links = this.getElementsByTagName('a');
+  blueimp.Gallery(links, options);
+  };
+   

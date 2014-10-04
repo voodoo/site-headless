@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guitar</title>
+    <link href="/css/all.css" rel="stylesheet" type="text/css" /><link href="/css/carousel.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="/js/all.js" type="text/javascript"></script>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+  </head>
+  <body>
+    <div class='navbar-wrapper'>
+      <div class='container'>
+        <div class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+          <div class='container'>
+            <div class='navbar-header'>
+              <button class='navbar-toggle collapsed' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+                <span class='sr-only'>Toggle navigation</span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+              </button>
+              <a class='navbar-brand' href='/' title='Project Guitar'>
+                <img class="img-responsive" id="logo" src="/img/logo.png" />
+              </a>
+            </div>
+            <div class='navbar-collapse collapse'>
+              <ul class='nav navbar-nav'>
+                <li class='active'>
+                  <!-- = p current_page -->
+                  <a href='/images.html'>Images</a>
+                </li>
+                <li>
+                  <a href='mailto:paul@vudmaska.com'>Contact</a>
+                </li>
+                <!-- %li.dropdown -->
+                <!-- %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"} -->
+                <!-- Dropdown -->
+                <!-- %span.caret -->
+                <!-- %ul.dropdown-menu{:role => "menu"} -->
+                <!-- %li -->
+                <!-- %a{:href => "#"} Action -->
+                <!-- %li -->
+                <!-- %a{:href => "#"} Another action -->
+                <!-- %li -->
+                <!-- %a{:href => "#"} Something else here -->
+                <!-- %li.divider -->
+                <!-- %li.dropdown-header Nav header -->
+                <!-- %li -->
+                <!-- %a{:href => "#"} Separated link -->
+                <!-- %li -->
+                <!-- %a{:href => "#"} One more separated link -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <link href="//23.253.214.114/gallery/css/blueimp-gallery.min.css" rel="stylesheet" type="text/css" />
+      <script src="//23.253.214.114/gallery/js/blueimp-gallery.min.js" type="text/javascript"></script>
+      <div class='blueimp-gallery blueimp-gallery-controls' id='blueimp-gallery'>
+        <div class='slides'></div>
+        <h3 class='title'></h3>
+        <a class='prev'>‹</a>
+        <a class='next'>›</a>
+        <a class='play-pause'></a>
+        <ol class='indicator'></ol>
+      </div>
+      <div id='links'>
+        <div class='container gallery'>
+          <h1>Images</h1>
+          <div class='images'>
+            <a title="Original victim" href="/img/1.png"><img class="thumbnail" src="/img/1.png" /></a>
+            <a title="Digital drawing" href="/img/5.png"><img class="thumbnail" src="/img/5.png" /></a>
+            <a title="Digital overlayed on original" href="/img/8.png"><img class="thumbnail" src="/img/8.png" /></a>
+            <a title="Parted" href="/img/10.jpg"><img class="thumbnail" src="/img/10.jpg" /></a>
+            <a title="Wood with feather" href="/img/11.png"><img class="thumbnail" src="/img/11.png" /></a>
+            <a title="Digital wood prototype" href="/img/15.png"><img class="thumbnail" src="/img/15.png" /></a>
+            <a title="Less is More?" href="/img/25.jpg"><img class="thumbnail" src="/img/25.jpg" /></a>
+            <a title="Gold bridge - did not fit" href="/img/30.jpg"><img class="thumbnail" src="/img/30.jpg" /></a>
+            <a title="Back stained" href="/img/40.jpg"><img class="thumbnail" src="/img/40.jpg" /></a>
+            <a title="No stain" href="/img/45.jpg"><img class="thumbnail" src="/img/45.jpg" /></a>
+            <a title="Hole :(" href="/img/50.jpg"><img class="thumbnail" src="/img/50.jpg" /></a>
+            <a title="Full view" href="/img/60.jpg"><img class="thumbnail" src="/img/60.jpg" /></a>
+            <a title="Hole Stained" href="/img/70.jpg"><img class="thumbnail" src="/img/70.jpg" /></a>
+            <a title="Kahler bridge - does not fit posts" href="/img/75.jpg"><img class="thumbnail" src="/img/75.jpg" /></a>
+            <a title="Tissue box - aka switch ;)" href="/img/80.jpg"><img class="thumbnail" src="/img/80.jpg" /></a>
+            <a title="Bridge Posts - body stain" href="/img/85.jpg"><img class="thumbnail" src="/img/85.jpg" /></a>
+            <a title="Back view" href="/img/90.jpg"><img class="thumbnail" src="/img/90.jpg" /></a>
+            <a title="Three amigos" href="/img/95.jpg"><img class="thumbnail" src="/img/95.jpg" /></a>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+        };
+      </script>
+    </div>
+  </body>
+</html>
