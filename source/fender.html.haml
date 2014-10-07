@@ -12,12 +12,21 @@
 
 #links
   .container.gallery
-    %h1 Images
+    %h1 Fender Bender
+    %h2 "The Shark"
     .images
       - data.guitar.images.each do |image|
         = link_to(image_tag(image.img, class: 'thumbnail'), "/img/#{image.img}", title: image.title)
 
+%h1 
+  Grade:
+  %code C-
 
+%ul
+  %li I really screwed up making the hole - and not accounting for switch
+  %li Like it over all
+  %li It is fun to play
+  %li Would not remove as much size next time - but would keep it as thin
 
 %script
   document.getElementById('links').onclick = function (event) {
