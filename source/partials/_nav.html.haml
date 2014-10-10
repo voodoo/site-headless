@@ -24,24 +24,10 @@
               /= p current_page
               %a{:href => "/fender.html"} Fender
 
+            %li{is_page_active('/builder.html')}
+              /= p current_page
+              %a{:href => "/builder.html"} Builder
 
-
-            %li
-              %a{:href => "mailto:paul@vudmaska.com"} Contact
-            / %li.dropdown
-            /   %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-            /     Dropdown
-            /     %span.caret
-            /   %ul.dropdown-menu{:role => "menu"}
-            /     %li
-            /       %a{:href => "#"} Action
-            /     %li
-            /       %a{:href => "#"} Another action
-            /     %li
-            /       %a{:href => "#"} Something else here
-            /     %li.divider
-            /     %li.dropdown-header Nav header
-            /     %li
-            /       %a{:href => "#"} Separated link
-            /     %li
-            /       %a{:href => "#"} One more separated link
+            / %li
+            /   %a{:href => "mailto:paul@vudmaska.com"} Contact
+ 

@@ -4,8 +4,8 @@
 .blueimp-gallery.blueimp-gallery-controls#blueimp-gallery
   .slides
   %h3.title
-  %a.prev ‹
-  %a.next ›
+  %a.prev &#8604;
+  %a.next &#8605;
   %a.play-pause
   %ol.indicator
 
@@ -17,6 +17,8 @@
     .images
       - data.guitar.images.each do |image|
         = link_to(image_tag(image.img, class: 'thumbnail'), "/img/#{image.img}", title: image.title)
+
+/= partial "partials/fender.html"        
 
 %h1 
   Grade:

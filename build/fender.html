@@ -6,6 +6,7 @@
     <script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="/js/all.js" type="text/javascript"></script>
     <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='/img/logo.png' rel='shortcut icon'>
   </head>
   <body>
     <div class='navbar-wrapper'>
@@ -25,30 +26,24 @@
             </div>
             <div class='navbar-collapse collapse'>
               <ul class='nav navbar-nav'>
-                <li class='active'>
+                <li>
                   <!-- = p current_page -->
-                  <a href='/images.html'>Images</a>
+                  <a href='/dbz.html'>DBZ</a>
                 </li>
                 <li>
-                  <a href='mailto:paul@vudmaska.com'>Contact</a>
+                  <!-- = p current_page -->
+                  <a href='/bc.html'>BC Rich</a>
                 </li>
-                <!-- %li.dropdown -->
-                <!-- %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"} -->
-                <!-- Dropdown -->
-                <!-- %span.caret -->
-                <!-- %ul.dropdown-menu{:role => "menu"} -->
+                <li class='active'>
+                  <!-- = p current_page -->
+                  <a href='/fender.html'>Fender</a>
+                </li>
+                <li>
+                  <!-- = p current_page -->
+                  <a href='/builder.html'>Builder</a>
+                </li>
                 <!-- %li -->
-                <!-- %a{:href => "#"} Action -->
-                <!-- %li -->
-                <!-- %a{:href => "#"} Another action -->
-                <!-- %li -->
-                <!-- %a{:href => "#"} Something else here -->
-                <!-- %li.divider -->
-                <!-- %li.dropdown-header Nav header -->
-                <!-- %li -->
-                <!-- %a{:href => "#"} Separated link -->
-                <!-- %li -->
-                <!-- %a{:href => "#"} One more separated link -->
+                <!-- %a{:href => "mailto:paul@vudmaska.com"} Contact -->
               </ul>
             </div>
           </div>
@@ -61,14 +56,15 @@
       <div class='blueimp-gallery blueimp-gallery-controls' id='blueimp-gallery'>
         <div class='slides'></div>
         <h3 class='title'></h3>
-        <a class='prev'>‹</a>
-        <a class='next'>›</a>
+        <a class='prev'>&#8604;</a>
+        <a class='next'>&#8605;</a>
         <a class='play-pause'></a>
         <ol class='indicator'></ol>
       </div>
       <div id='links'>
         <div class='container gallery'>
-          <h1>Images</h1>
+          <h1>Fender Bender</h1>
+          <h2>"The Shark"</h2>
           <div class='images'>
             <a title="Original victim" href="/img/1.png"><img class="thumbnail" src="/img/1.png" /></a>
             <a title="Digital drawing" href="/img/5.png"><img class="thumbnail" src="/img/5.png" /></a>
@@ -94,6 +90,17 @@
           </div>
         </div>
       </div>
+      <!-- = partial "partials/fender.html" -->
+      <h1>
+        Grade:
+        <code>C-</code>
+      </h1>
+      <ul>
+        <li>I really screwed up making the hole - and not accounting for switch</li>
+        <li>Like it over all</li>
+        <li>It is fun to play</li>
+        <li>Would not remove as much size next time - but would keep it as thin</li>
+      </ul>
       <script>
         document.getElementById('links').onclick = function (event) {
         event = event || window.event;

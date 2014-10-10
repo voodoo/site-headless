@@ -12,4 +12,6 @@ gem 'haml'
 
 gem 'middleman-deploy', '~> 0.3.0'
 
-# FUCK YOU gem 'middleman-simple-thumbnailer'
+gem "middleman-blog"
+
+# gem 'middleman-simple-thumbnailer'

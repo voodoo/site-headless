@@ -1,0 +1,47 @@
+%h1 
+  Builder
+  #settings.pull-right(style="display:none;width:300px;font-size:14px")
+    %p
+      Settings: 
+      Move
+      (
+      %a#aBack(href="#") Back
+      \|
+      %a#aFront(href="#") Front
+      )
+.container-fluid.builder
+  .row
+    .col-lg-6
+      %canvas#canvas{:height => "900", :width => "500", style: "border:1px solid #ccc"}
+    .col-lg-6
+      %ul.nav.nav-tabs{:role => "tablist"}
+        %li.active
+          %a{"data-toggle" => "tab", :href => "#tabBodies", :role => "tab"} 
+            Bodies
+        %li
+          %a{"data-toggle" => "tab", :href => "#tabNecks", :role => "tab"} 
+            Necks
+        %li
+          %a{"data-toggle" => "tab", :href => "#tabHardware", :role => "tab"}
+            Hardware
+      .tab-content
+        #tabBodies.tab-pane.active
+          %img.body{:src => "/img/shapes/firebird.png"}/
+          %img.body{:src => "/img/shapes/music-lander.png"}/
+          %img.body{:src => "/img/shapes/strat.png"}/
+          %img.body{:src => "/img/shapes/tele.png"}/
+        #tabNecks.tab-pane
+          %img.body{:src => "/img/shapes/necks/33.png"}/
+          %img.body{:src => "/img/shapes/necks/p33.png"}/
+          %img.body{:src => "/img/shapes/necks/r6.png"}/
+          %img.body{:src => "/img/shapes/necks/bm.png"}/
+
+        #tabHardware.tab-pane
+          %img.body{:src => "/img/shapes/hw/pu.png"}/
+          %img.body{:src => "/img/shapes/hw/bridge.png"}/
+          %img.body{:src => "/img/shapes/hw/control.png"}/
+
+
+
+%script{:src => "/js/fabric.min.js"}
+%script{:src => "/js/builder.js"}
