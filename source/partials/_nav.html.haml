@@ -12,8 +12,12 @@
             = image_tag 'logo.png', class: 'img-responsive', id: 'logo'
         .navbar-collapse.collapse
           %ul.nav.navbar-nav
+          
+            %li{is_blog_page?}
+              %a{:href => "/blog/index.html"} 
+                Blog
+
             %li{is_page_active('/dbz.html')}
-              /= p current_page
               %a{:href => "/dbz.html"} DBZ
 
             %li{is_page_active('/bc.html')}

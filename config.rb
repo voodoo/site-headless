@@ -27,6 +27,13 @@ configure :development do
   activate :livereload
 end
 
+activate :blog do |blog|
+  blog.prefix    = "blog"
+  blog.permalink = "{title}.html"
+  blog.layout    = "blog"
+
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper

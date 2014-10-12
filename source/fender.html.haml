@@ -1,3 +1,9 @@
+- content_for :carousel do 
+  .container
+    %h1 Fender Bender
+
+  %img(title="Fender Jaguar" src="/img/11.png" width="100%" class="img-responsive")
+
 = stylesheet_link_tag "//23.253.214.114/gallery/css/blueimp-gallery.min.css"
 = javascript_include_tag "//23.253.214.114/gallery/js/blueimp-gallery.min.js"
 
@@ -12,7 +18,6 @@
 
 #links
   .container.gallery
-    %h1 Fender Bender
     %h2 "The Shark"
     .images
       - data.guitar.images.each do |image|
