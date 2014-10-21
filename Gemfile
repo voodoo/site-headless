@@ -14,4 +14,7 @@ gem 'middleman-deploy', '~> 0.3.0'
 
 gem "middleman-blog"
 
+# For feed.xml.builder
+gem "builder", "~> 3.0"
+
 # gem 'middleman-simple-thumbnailer'

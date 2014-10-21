@@ -1,4 +1,11 @@
 module PathHelpers
+  def in_dir_of?(dir)
+    if current_page.url =~ /\/#{dir}\//
+     {:class => 'active'} 
+    else
+      {}
+    end    
+  end
   def is_page_active(page)
     current_page.url == page ? {:class => 'active'} : {}
   end

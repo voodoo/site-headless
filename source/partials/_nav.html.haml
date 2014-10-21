@@ -13,24 +13,30 @@
         .navbar-collapse.collapse
           %ul.nav.navbar-nav
           
-            %li{is_blog_page?}
+            %li{in_dir_of?('blog')}
               %a{:href => "/blog/index.html"} 
                 Blog
+          
+            %li{in_dir_of?('guitars')}
+              %a{:href => "/guitars/index.html"} 
+                Guitars
 
-            %li{is_page_active('/dbz.html')}
-              %a{:href => "/dbz.html"} DBZ
 
-            %li{is_page_active('/bc.html')}
-              /= p current_page
-              %a{:href => "/bc.html"} BC Rich
+            %li{is_page_active('/guitars/headless.html')}
+              %a{:href => "/guitars/headless.html"}
+                Headless
+
+            / %li{is_page_active('/guitars/bc.html')}
+            /   /= p current_page
+            /   %a{:href => "/guitars/bc.html"} BC Rich
                             
-            %li{is_page_active('/fender.html')}
-              /= p current_page
-              %a{:href => "/fender.html"} Fender
+            / %li{is_page_active('/guitars/fender.html')}
+            /   /= p current_page
+            /   %a{:href => "/guitars/fender.html"} Fender
 
-            %li{is_page_active('/builder.html')}
-              /= p current_page
-              %a{:href => "/builder.html"} Builder
+            / %li{is_page_active('/guitars/builder.html')}
+            /   /= p current_page
+            /   %a{:href => "/guitars/builder.html"} Builder
 
             / %li
             /   %a{:href => "mailto:paul@vudmaska.com"} Contact

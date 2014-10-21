@@ -1,14 +1,5 @@
 %h1 
   Builder
-  #settings.pull-right(style="display:none;width:300px;font-size:14px")
-    %p
-      Settings: 
-      Move
-      (
-      %a#aBack(href="#") Back
-      \|
-      %a#aFront(href="#") Front
-      )
 .container-fluid.builder
   .row
     .col-lg-6
@@ -40,6 +31,18 @@
           %img.body{:src => "/img/shapes/hw/pu.png"}/
           %img.body{:src => "/img/shapes/hw/bridge.png"}/
           %img.body{:src => "/img/shapes/hw/control.png"}/
+      #settings.pull-right(style="display:none;width:500px;font-size:14px")
+        %hr
+        %p
+          Settings: 
+          Move
+          (
+          %a#aBack(href="#") Back
+          \|
+          %a#aFront(href="#") Front
+          )
+        %p.text-muted
+          (use the arrow keys for fine movements left, right up or down)          
 
 
 

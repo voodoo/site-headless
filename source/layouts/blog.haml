@@ -5,7 +5,7 @@
         %article
           %h1
             = current_page.title
-            %span= current_page.date.strftime('%b %e')
+            %small.text-muted= current_page.date.strftime('%b %e')
           = yield
         %hr
         %p= link_to 'Return to Blog', '/blog/index.html', class: 'btn btn-default'  

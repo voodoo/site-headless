@@ -28,10 +28,11 @@ configure :development do
 end
 
 activate :blog do |blog|
-  blog.prefix    = "blog"
-  blog.permalink = "{title}.html"
-  blog.layout    = "blog"
-
+  blog.prefix            = "blog"
+  blog.permalink         = "{title}.html"
+  blog.layout            = "blog"
+  blog.tag_template      = "tag.html"
+  blog.calendar_template = "calendar.html"
 end
 
 # Methods defined in the helpers block are available in templates
