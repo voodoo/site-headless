@@ -1,13 +1,15 @@
 = wrap_layout :layout do
-  .container
-    .row
-      .col-lg-9
-        %article
-          %h1
-            = current_page.title
-            %small.text-muted= current_page.date.strftime('%b %e')
-          = yield
-        %hr
-        %p= link_to 'Return to Blog', '/blog/index.html', class: 'btn btn-default'  
-      .col-lg-3
-        = partial "partials/blog_nav"
+  .row
+    .col-lg-9
+      %article
+        %h1
+          = current_page.title
+          %small.text-muted= current_page.date.strftime('%b %e')
+        = yield
+      %hr
+      %p
+        = link_to '/blog/index.html', class: 'btn btn-success'  do
+          &#8617;
+          Return to Blog
+    .col-lg-3
+      = partial "partials/blog_nav"

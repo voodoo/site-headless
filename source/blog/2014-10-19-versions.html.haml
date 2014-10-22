@@ -4,6 +4,8 @@ date: 2014-10-19 16:17 UTC
 tags: headless
 subtitle: Images of versions
 ---
+
+= partial "partials/gallery", locals: {gallery_title: "", img_dir: 'headless/vs/', img_type: '*.png'}
 / :css
 /   #gallery .gal{
 /   position:absolute;
@@ -11,12 +13,12 @@ subtitle: Images of versions
 /   top:150px;
 /   opacity: .5;
 /   }
-#gallery
-  - Dir.glob("#{root}/source/img/headless/vs/*.png").each do |img|
-    - name = img.split('/').last
-    .gal
-      %h1= name.sub(/.png/,'').capitalize
-      = image_tag "img/headless/vs/" + name
+/ #gallery
+/   - Dir.glob("#{root}/source/img/headless/vs/*.png").each do |img|
+/     - name = img.split('/').last
+/     .gal
+/       %h2= name.sub(/.png/,'').capitalize
+/       = image_tag "img/headless/vs/" + name
 
 / = link_to "next", "#", id: 'next'
 

@@ -16,15 +16,11 @@
             %li{in_dir_of?('blog')}
               %a{:href => "/blog/index.html"} 
                 Blog
-          
-            %li{in_dir_of?('guitars')}
-              %a{:href => "/guitars/index.html"} 
-                Guitars
+  
 
-
-            %li{is_page_active('/guitars/headless.html')}
-              %a{:href => "/guitars/headless.html"}
-                Headless
+            / %li{is_page_active('/guitars/builder.html')}
+            /   %a{:href => "/guitars/builder.html"}
+            /     Guitar Builder
 
             / %li{is_page_active('/guitars/bc.html')}
             /   /= p current_page

@@ -1,0 +1,32 @@
+= stylesheet_link_tag "//23.253.214.114/gallery/css/blueimp-gallery.min.css"
+= javascript_include_tag "//23.253.214.114/gallery/js/blueimp-gallery.min.js"
+
+.blueimp-gallery.blueimp-gallery-controls#blueimp-gallery
+  .slides
+  %h3.title
+  %a.prev &#65513;
+  %a.next &#65515;
+  %a.play-pause
+  %ol.indicator
+
+- images = Dir.glob("#{root}/source/img/#{img_dir}#{img_type}")
+
+#links
+  .gallery
+    %h2= gallery_title
+    .images(class="clearfix visible-lg")
+      - images.each do |image|
+        - name = image.split('/').last
+        - title = name.sub(/(\.png|\.jpg)/,'').titleize
+        = link_to("/img/#{img_dir}#{name}", title: title, "data-toggle" => :tooltip, class:'pull-left') do
+          = image_tag("/img/#{img_dir}thumbs/#{name}", title: title, class: 'thumbnail')
+    
+%script
+  document.getElementById('links').onclick = function (event) {
+  event = event || window.event;
+  var target = event.target || event.srcElement,
+  link = target.src ? target.parentNode : target,
+  options = {index: link, event: event},
+  links = this.getElementsByTagName('a');
+  blueimp.Gallery(links, options);
+  };
