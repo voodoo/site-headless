@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guitar</title>
+    <link href="/css/all.css" rel="stylesheet" type="text/css" /><link href="/css/carousel.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <!-- %script(src='https://cdn.firebase.com/js/client/1.1.1/firebase.js') -->
+    <script src="/js/all.js" type="text/javascript"></script>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='/img/logo.png' rel='shortcut icon'>
+  </head>
+  <body>
+    <div class='navbar-wrapper'>
+      <div class='container'>
+        <div class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+          <div class='container'>
+            <div class='navbar-header'>
+              <button class='navbar-toggle collapsed' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+                <span class='sr-only'>Toggle navigation</span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+              </button>
+              <a class='navbar-brand' href='/' title='Project Guitar'>
+                <img class="img-responsive" id="logo" src="/img/logo.png" />
+              </a>
+            </div>
+            <div class='navbar-collapse collapse'>
+              <ul class='nav navbar-nav'>
+                <li class='active'>
+                  <a href='/blog/index.html'>
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href='/about.html'>
+                    About
+                  </a>
+                </li>
+                <!-- %li{is_page_active('/guitars/builder.html')} -->
+                <!-- %a{:href => "/guitars/builder.html"} -->
+                <!-- Guitar Builder -->
+                <!-- %li{is_page_active('/guitars/bc.html')} -->
+                <!-- /= p current_page -->
+                <!-- %a{:href => "/guitars/bc.html"} BC Rich -->
+                <!-- %li{is_page_active('/guitars/fender.html')} -->
+                <!-- /= p current_page -->
+                <!-- %a{:href => "/guitars/fender.html"} Fender -->
+                <!-- %li{is_page_active('/guitars/builder.html')} -->
+                <!-- /= p current_page -->
+                <!-- %a{:href => "/guitars/builder.html"} Builder -->
+                <!-- %li -->
+                <!-- %a{:href => "mailto:paul@vudmaska.com"} Contact -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <h1>Articles</h1>
+      
+        <h2><a href="/blog/bat-v1.html">Bat V1</a> <span>Nov 12</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Version One of the Bat</p></blockquote>
+        <a href="/blog/bat-v1.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/final-controls.html">Final controls</a> <span>Nov  8</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Control set</p></blockquote>
+        <a href="/blog/final-controls.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/final-final-really-final.html">Final final really final</a> <span>Nov  1</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Final version of git</p></blockquote>
+        <a href="/blog/final-final-really-final.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/scaled-to-inches.html">Scaled to inches</a> <span>Oct 31</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Scaled up - for scale - thru sizing</p></blockquote>
+        <a href="/blog/scaled-to-inches.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/expanded-pieces.html">Expanded Pieces</a> <span>Oct 31</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>String thru pics and pickup cavity</p></blockquote>
+        <a href="/blog/expanded-pieces.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/hardware.html">Hardware</a> <span>Oct 30</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>String thru pics and pickup cavity</p></blockquote>
+        <a href="/blog/hardware.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/the-wood-parts.html">The wood parts</a> <span>Oct 29</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Various wood pieces</p></blockquote>
+        <a href="/blog/the-wood-parts.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/headless-final.html">Headless final</a> <span>Oct 28</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Less risky version</p></blockquote>
+        <a href="/blog/headless-final.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/headless-shape-differences.html">Headless shape differences</a> <span>Oct 27</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Relative size differences</p></blockquote>
+        <a href="/blog/headless-shape-differences.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/shape-differences.html">Shape Differences</a> <span>Oct 22</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>HTML experiment with shape differences</p></blockquote>
+        <a href="/blog/shape-differences.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/versions.html">Versions</a> <span>Oct 19</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Images of versions</p></blockquote>
+        <a href="/blog/versions.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/version-two.html">Version Two</a> <span>Oct 18</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Beefing up body - trying not to lose coolness</p></blockquote>
+        <a href="/blog/version-two.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/projector.html">Projector</a> <span>Oct 16</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Using projector to upscale</p></blockquote>
+        <a href="/blog/projector.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/batshit-crazy.html">Headless Prototype</a> <span>Oct 15</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Initial Headless prototyping</p></blockquote>
+        <a href="/blog/batshit-crazy.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/speedloader.html">Floyd Rose Speedloader</a> <span>Oct 12</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>The speedloader is a nice evolution</p></blockquote>
+        <a href="/blog/speedloader.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/guitar-projects.html">Guitar projects</a> <span>Oct 10</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Guitar projects are fun but I'm not a craftsman</p></blockquote>
+        <a href="/blog/guitar-projects.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/bc-rich.html">BC Rich</a> <span>Oct  9</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>BC Rich speedloader project</p></blockquote>
+        <a href="/blog/bc-rich.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/dbz.html">DBZ Hailfire Charcoal</a> <span>Oct  8</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>DBZ Hailfire</p></blockquote>
+        <a href="/blog/dbz.html" class="btn btn-primary">Read more</a>
+        <hr/>
+        <h2><a href="/blog/fender.html">Fender Jag</a> <span>Oct  7</span></h2>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <blockquote><p class='text-muted'>Minimize a brand new Fender Jaguar</p></blockquote>
+        <a href="/blog/fender.html" class="btn btn-primary">Read more</a>
+        <hr/>
+    </div>
+  </body>
+</html>
