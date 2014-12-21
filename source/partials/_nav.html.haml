@@ -16,7 +16,9 @@
             %li{in_dir_of?('blog')}
               %a{:href => "/blog/index.html"} 
                 Blog
-  
+            %li{is_page_active('/about.html')}
+              %a{:href => "/about.html"} 
+                About  
 
             / %li{is_page_active('/guitars/builder.html')}
             /   %a{:href => "/guitars/builder.html"}

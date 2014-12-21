@@ -11,5 +11,10 @@
         = link_to '/blog/index.html', class: 'btn btn-success'  do
           &#8617;
           Return to Blog
+        - next_one = next_article(current_page)
+        = link_to next_one.url, class: "btn btn-default" do
+          = next_one.title
+          &#8680;
+
     .col-lg-3
       = partial "partials/blog_nav"

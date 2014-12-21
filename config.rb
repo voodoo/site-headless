@@ -23,6 +23,9 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
+set :markdown_engine, :redcarpet
+set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true
+
 configure :development do
   activate :livereload
 end
@@ -33,6 +36,8 @@ activate :blog do |blog|
   blog.layout            = "blog"
   blog.tag_template      = "tag.html"
   blog.calendar_template = "calendar.html"
+  blog.paginate          = true
+  blog.per_page          = 1
 end
 
 # Methods defined in the helpers block are available in templates

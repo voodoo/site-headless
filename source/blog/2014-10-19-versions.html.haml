@@ -6,26 +6,3 @@ subtitle: Images of versions
 ---
 
 = partial "partials/gallery", locals: {gallery_title: "", img_dir: 'headless/vs/', img_type: '*.png'}
-/ :css
-/   #gallery .gal{
-/   position:absolute;
-/   left:0;
-/   top:150px;
-/   opacity: .5;
-/   }
-/ #gallery
-/   - Dir.glob("#{root}/source/img/headless/vs/*.png").each do |img|
-/     - name = img.split('/').last
-/     .gal
-/       %h2= name.sub(/.png/,'').capitalize
-/       = image_tag "img/headless/vs/" + name
-
-/ = link_to "next", "#", id: 'next'
-
-/ :javascript
-/   Z = 0
-/   $('#next').on('click', function(e){
-/     e.preventDefault()
-/     n = $($('#gallery .gal')[Z+1])
-/     n.css('opacity', 1).css('z-index',Z++)
-/   })
