@@ -1,3 +1,5 @@
+
+
 # Per-page layout changes:
 #
 # With no layout
@@ -58,6 +60,11 @@ set :images_dir, 'img'
 # Asset pipeline
 #activate :sprockets
 
+# Use relative URLs
+activate :relative_assets
+
+set :relative_links, true
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -79,6 +86,9 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
+
+  deploy.build_before = true # default: false
+
   # deploy.port  = 5309 # ssh port, default: 22
   # deploy.clean = true # remove orphaned files on remote host, default: false
   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz

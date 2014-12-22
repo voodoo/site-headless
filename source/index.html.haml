@@ -1,8 +1,8 @@
 ---
 container: false
 ---
-
-%img{:alt => "5 gits", :src => "/img/headless/colors/5.png", class: 'img-responsive', width: '100%'}/
+= image_tag '/img/headless/colors/5.png', class: 'img-responive', alt: "5 gits", width: '100%'
+/ %img{:alt => "5 gits", :src => url_for('/img/headless/colors/5.png'), class: 'img-responsive', width: '100%'}/
 
 .container
   %h1 
@@ -11,7 +11,7 @@ container: false
     /... get them while they are ...
 
 
-  %img{:alt => "red on red", :src => "/img/headless/colors/tan-red.png", class: 'img-responsive'}/  
+  %img{:alt => "red on red", :src => url_for("/img/headless/colors/tan-red.png"), class: 'img-responsive'}/  
 
   / %h2 
   /   You know, just some pictures of my headless git design. 
