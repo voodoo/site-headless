@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>Guitar</title>
-    <link href="/css/all.css" rel="stylesheet" type="text/css" /><link href="/css/carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/all.css" rel="stylesheet" type="text/css" /><link href="css/carousel.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
     <!-- %script(src='https://cdn.firebase.com/js/client/1.1.1/firebase.js') -->
-    <script src="/js/all.js" type="text/javascript"></script>
+    <script src="js/all.js" type="text/javascript"></script>
     <meta content='width=device-width, initial-scale=1' name='viewport'>
     <link href='/img/logo.png' rel='shortcut icon'>
   </head>
@@ -22,7 +22,7 @@
                 <span class='icon-bar'></span>
               </button>
               <a class='navbar-brand' href='/' title='Project Guitar'>
-                <img class="img-responsive" id="logo" src="/img/logo.png" />
+                <img class="img-responsive" id="logo" src="img/logo.png" />
               </a>
             </div>
             <div class='navbar-collapse collapse'>
@@ -83,22 +83,22 @@
         &lt;small class='text-muted'&gt;is heavy&lt;/small&gt;
       &lt;/h2&gt;
       &lt;p&gt;I did a 'real' mockup as good as I could. I'm 95% certain this design will work for me. This is the sweet spot.&lt;/p&gt;
-      &lt;a target="_blank" href="/img/bat/v1/center.jpg"&gt;&lt;img class="img-responsive" src="/img/bat/v1/center.jpg" /&gt;&lt;/a&gt;
-      &lt;a target="_blank" href="/img/bat/v1/left.jpg"&gt;&lt;img class="img-responsive" src="/img/bat/v1/left.jpg" /&gt;&lt;/a&gt;
-      &lt;a target="_blank" href="/img/bat/v1/right.jpg"&gt;&lt;img class="img-responsive" src="/img/bat/v1/right.jpg" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/bat/v1/center.jpg"&gt;&lt;img class="img-responsive" src="img/bat/v1/center.jpg" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/bat/v1/left.jpg"&gt;&lt;img class="img-responsive" src="img/bat/v1/left.jpg" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/bat/v1/right.jpg"&gt;&lt;img class="img-responsive" src="img/bat/v1/right.jpg" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Bout extension
         &lt;small class='text-muted'&gt;not superfulous&lt;/small&gt;
       &lt;/h2&gt;
       &lt;p&gt;I can see now why the Strandberg guitar has the long upper bout&lt;/p&gt;
-      &lt;a target="_blank" href="/img/bat/v1/bal1.jpg"&gt;&lt;img class="img-responsive" src="/img/bat/v1/bal1.jpg" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/bat/v1/bal1.jpg"&gt;&lt;img class="img-responsive" src="img/bat/v1/bal1.jpg" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Without bout extension
         &lt;small class='text-muted'&gt;Perfect balance!&lt;/small&gt;
       &lt;/h2&gt;
       &lt;p&gt;Too bad I don't play like that. I can see why the Strandberg is so long. It is not 'superfulous'&lt;/p&gt;
-      &lt;a target="_blank" href="/img/bat/v1/bal.jpg"&gt;&lt;img class="img-responsive" src="/img/bat/v1/bal.jpg" /&gt;&lt;/a&gt;
-      &lt;a target="_blank" href="/img/bat/v1/bc.jpg"&gt;&lt;img class="img-responsive" src="/img/bat/v1/bc.jpg" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/bat/v1/bal.jpg"&gt;&lt;img class="img-responsive" src="img/bat/v1/bal.jpg" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/bat/v1/bc.jpg"&gt;&lt;img class="img-responsive" src="img/bat/v1/bc.jpg" /&gt;&lt;/a&gt;
       </content>
         </entry>
         <entry>
@@ -132,7 +132,7 @@
         &lt;/li&gt;
         &lt;li&gt;Perhaps a switch on upper bout for split/hb/kill&lt;/li&gt;
       &lt;/ul&gt;
-      &lt;a target="_blank" href="/img/headless/thru/shaved.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/shaved.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/shaved.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/shaved.png" /&gt;&lt;/a&gt;
       </content>
         </entry>
         <entry>
@@ -148,12 +148,12 @@
         14 inches
         &lt;small class='text-muted'&gt;scaled up a bit&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/14.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/14.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/14.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/14.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Wood
         &lt;small class='text-muted'&gt;wood version&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/pv14.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/pv14.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/pv14.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/pv14.png" /&gt;&lt;/a&gt;
       </content>
         </entry>
         <entry>
@@ -169,43 +169,43 @@
         Full
         &lt;small class='text-muted'&gt;scaled with splated maple center&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/pv.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/pv.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/pv.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/pv.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;Dimwhitted Dimensions?&lt;/h2&gt;
       &lt;p&gt;I'm trying to figure out how I came up with 16" before. Either that is wrong or this scale is wrong :/&lt;/p&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/scale.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/scale.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/scale.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/scale.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;TDPRI image for comparison&lt;/h2&gt;
       &lt;ul&gt;
         &lt;li&gt;I think I screwed up the dims (16") when I sent the first time&lt;/li&gt;
         &lt;li&gt;or&lt;/li&gt;
         &lt;li&gt;The scale on this new one - which I did 'to get more precise' is borked&lt;/li&gt;
       &lt;/ul&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/scale1.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/scale1.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/scale1.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/scale1.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Strandberg overlay
         &lt;small class='text-muted'&gt;for really scaling purposes&lt;/small&gt;
       &lt;/h2&gt;
       &lt;p&gt;I moved to inches - and then scaled the images so the git had 25.5" scale&lt;/p&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/strand.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/strand.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/strand.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/strand.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Neck thru
         &lt;small class='text-muted'&gt;one of the reasons I scaled to inches - to get to .5 x 5 in the center&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/thru.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/thru.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/thru.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/thru.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Outline
         &lt;small class='text-muted'&gt;for inner shape of maple. Last one. Period. If you click the image  you will see the big one  for printing.&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/outline.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/outline.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/outline.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/outline.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Inches
         &lt;small class='text-muted'&gt;really!&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/inches.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/inches.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/inches.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/inches.png" /&gt;&lt;/a&gt;
       &lt;h2&gt;
         Holdsworth
         &lt;small class='text-muted'&gt;for relative size reference&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;a target="_blank" href="/img/headless/thru/pieces/holds.png"&gt;&lt;img class="img-responsive" src="/img/headless/thru/pieces/holds.png" /&gt;&lt;/a&gt;
+      &lt;a target="_blank" href="/img/headless/thru/pieces/holds.png"&gt;&lt;img class="img-responsive" src="img/headless/thru/pieces/holds.png" /&gt;&lt;/a&gt;
       </content>
         </entry>
         <entry>
@@ -221,17 +221,17 @@
         Wings
         &lt;small class='text-muted'&gt;walnut&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;img class="img-responsive" src="/img/headless/thru/pieces/wings.png" /&gt;
+      &lt;img class="img-responsive" src="img/headless/thru/pieces/wings.png" /&gt;
       &lt;h2&gt;
         Neck-thru
         &lt;small class='text-muted'&gt;maple, walnut. Without the neck&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;img class="img-responsive" src="/img/headless/thru/pieces/thru.png" /&gt;
+      &lt;img class="img-responsive" src="img/headless/thru/pieces/thru.png" /&gt;
       &lt;h2&gt;
         Bouts
         &lt;small class='text-muted'&gt;maple&lt;/small&gt;
       &lt;/h2&gt;
-      &lt;img class="img-responsive" src="/img/headless/thru/pieces/bouts.png" /&gt;
+      &lt;img class="img-responsive" src="img/headless/thru/pieces/bouts.png" /&gt;
       &lt;a href="https://www.youtube.com/watch?v=0DD2G-TfZOA"&gt;Reasoning for a headless&lt;/a&gt;
       </content>
         </entry>
@@ -250,7 +250,7 @@
         &lt;li&gt;Fixed&lt;/li&gt;
         &lt;li&gt;Tight ring&lt;/li&gt;
       &lt;/ul&gt;
-      &lt;img class="img-responsive" src="/img/headless/thru/pu.png" /&gt;
+      &lt;img class="img-responsive" src="img/headless/thru/pu.png" /&gt;
       &lt;div class='alert alert-warning'&gt;
         &lt;b&gt;Top piece&lt;/b&gt;
         &lt;p&gt;Did not want to cover the striping from the neck-thru so the top piece of maple will be for the bouts&lt;/p&gt;
@@ -264,9 +264,9 @@
           &lt;em&gt;No kill, no varitone&lt;/em&gt;
         &lt;/li&gt;
       &lt;/ul&gt;
-      &lt;img class="img-responsive" src="/img/headless/thru/hw.png" /&gt;
+      &lt;img class="img-responsive" src="img/headless/thru/hw.png" /&gt;
       &lt;h2&gt;Floyd Rose&lt;/h2&gt;
-      &lt;img class="img-responsive" src="/img/headless/thru/fr.png" /&gt;
+      &lt;img class="img-responsive" src="img/headless/thru/fr.png" /&gt;
       &lt;h2&gt;Knobs&lt;/h2&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a target="blank" href="http://www.allparts.com/PK-3197-0M0-Maple-Bell-Knobs_p_2896.html"&gt;http://www.allparts.com/PK-3197-0M0-Maple-Bell-Knobs_p_2896.html&lt;/a&gt;&lt;/li&gt;
